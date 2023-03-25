@@ -99,7 +99,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 3%;
+    margin-top: 10vw;
     height: 40vw;
     box-sizing: border-box;
 }
@@ -186,6 +186,58 @@ main{
     from {opacity: .3}
     to {opacity: 1}
 }
+
+
+
+
+.promotions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10vw;
+}
+.onepromotion{
+    display: flex;
+    width: 40vw;
+    height: 30vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.prom_img {
+    border: 0;
+    width: 40vw;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.txtprom{
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+    font-size: calc(14px + 0.8vw);
+}
+.link{
+    width: 40vw;
+    height: 30vw;
+}
+.big{
+    width: 60vw;
+    height: 45vw;
+}
+
+.bigtxt{
+    position: absolute;
+    bottom: 1.2vw;
+    left: 1.2vw;
+    font-size: calc(14px + 1.3vw);
+}
+
+
+
+
+
+
 
 
 
